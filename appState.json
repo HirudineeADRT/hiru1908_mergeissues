@@ -22,7 +22,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "hiru1908_mergeissues/lambda.js",
-        "code": "let AWS = require('aws-sdk');\nconst cognito_idp = new AWS.CognitoIdentityServiceProvider();\n\nexports.handler = function (event, context, callback) {\n\n\n    callback(null, { \"message\": \"Successfully executed ..\" });\n}",
+        "code": "exports.handler = function (event, context, callback) {\n\n    callback(null, { \"message\": \"Successfully executed ..\" });\n}",
         "config": {
           "runtime": "nodejs8.10",
           "handler": "handler",
@@ -41,8 +41,28 @@
     "currentFileId": "f6291eb8-7c97-4807-9a6b-0bc9bdadbbdf",
     "resources": {},
     "customTemplate": {
-      "dialect": null,
-      "definitions": {}
+      "dialect": "CloudFormation",
+      "definitions": {
+        "Resources": {
+          "Version": "2012-10-17",
+          "Statement": [
+            {
+              "Effect": "Allow",
+              "Resource": "arn:aws:cloud9:us-east-1:::",
+              "Action": [
+                "*"
+              ]
+            },
+            {
+              "Effect": "Allow",
+              "Resource": "arn:aws:clouddirectory:us-east-1::",
+              "Action": [
+                "*"
+              ]
+            }
+          ]
+        }
+      }
     },
     "envVariables": [
       {
@@ -73,7 +93,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1566205253185
+    "lastSave": 1566205858248
   },
   "VCS_STATE": {
     "provider": "GitHub",
