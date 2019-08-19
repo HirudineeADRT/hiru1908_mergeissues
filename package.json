@@ -2,7 +2,5 @@
   "name": "hiru1908_mergeissues",
   "version": "1.2.3",
   "dependencies": {},
-  "devDependencies": {
-    "aws-sdk": "2.176.0"
-  }
+  "devDependencies": {}
 }

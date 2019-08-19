@@ -22,7 +22,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "hiru1908_mergeissues/lambda.js",
-        "code": "let AWS = require('aws-sdk');\nconst s3 = new AWS.S3();\nconst cognito_idp = new AWS.CognitoIdentityServiceProvider();\n\nexports.handler = function (event, context, callback) {\n\n\n\n\n\n    callback(null, { \"message\": \"Successfully executed ..\" });\n}",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed ..\"});\n}",
         "config": {
           "runtime": "nodejs8.10",
           "handler": "handler",
@@ -325,25 +325,17 @@
       }
     ],
     "packageJSON": {
-      "dependencies": {
-        "aws-sdk": {
-          "name": "aws-sdk",
-          "language": "javascript",
-          "version": "2.176.0",
-          "dev": true,
-          "notRemovable": false
-        }
-      }
+      "dependencies": {}
     }
   },
   "PROJECT_META": {
     "projectName": "hiru1908_mergeissues",
-    "projectDescription": "chnage",
+    "projectDescription": "Kumu edit",
     "projectVersion": "1.2.3",
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1566204104809
+    "lastSave": 1566204268748
   },
   "VCS_STATE": {
     "provider": "GitHub",
