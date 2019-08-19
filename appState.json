@@ -1,0 +1,77 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "9f523359-b5f8-4a0c-95d8-dfc6ac72e954": {
+        "id": "9f523359-b5f8-4a0c-95d8-dfc6ac72e954",
+        "parent": null,
+        "name": "hiru1908_mergeissues",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "f6291eb8-7c97-4807-9a6b-0bc9bdadbbdf"
+        ],
+        "isRemovable": false,
+        "filePath": "hiru1908_mergeissues"
+      },
+      "f6291eb8-7c97-4807-9a6b-0bc9bdadbbdf": {
+        "id": "f6291eb8-7c97-4807-9a6b-0bc9bdadbbdf",
+        "parent": "9f523359-b5f8-4a0c-95d8-dfc6ac72e954",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "hiru1908_mergeissues/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "9f523359-b5f8-4a0c-95d8-dfc6ac72e954",
+    "openFiles": [
+      "f6291eb8-7c97-4807-9a6b-0bc9bdadbbdf"
+    ],
+    "currentFileId": "f6291eb8-7c97-4807-9a6b-0bc9bdadbbdf",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "hiru1908_mergeissues",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1566192813368
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "hiru1908_mergeissues",
+      "url": "https://github.com/HirudineeADRT/hiru1908_mergeissues"
+    }
+  }
+}
