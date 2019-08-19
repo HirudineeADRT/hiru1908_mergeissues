@@ -60,12 +60,12 @@
   },
   "PROJECT_META": {
     "projectName": "hiru1908_mergeissues",
-    "projectDescription": "test 123",
+    "projectDescription": "Kumu edit",
     "projectVersion": "1.2.3",
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1566203465150
+    "lastSave": 1566203575576
   },
   "VCS_STATE": {
     "provider": "GitHub",
