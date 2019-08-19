@@ -54,9 +54,9 @@
         "editable": false
       },
       {
-        "lambdaId": "f6291eb8-7c97-4807-9a6b-0bc9bdadbbdf",
+        "lambdaId": "all",
         "varKey": "hiru",
-        "varValue": "456",
+        "varValue": "123",
         "shouldPersist": true,
         "displayOnly": false,
         "editable": true
@@ -81,7 +81,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1566194020299
+    "lastSave": 1566194090703
   },
   "VCS_STATE": {
     "provider": "GitHub",
